@@ -1,0 +1,118 @@
+
+.contenedor {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.formulario {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-top: 30px;
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.formulario textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.botones button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.botones button:hover {
+  background-color: #1d4ed8;
+}
+
+.botones button:last-child {
+  background-color: #6b7280;
+}
+
+.botones button:last-child:hover {
+  background-color: #4b5563;
+}
+
+.error {
+  color: #dc2626;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+.listado {
+  margin-top: 35px;
+  text-align: left;
+}
+
+.listado h2 {
+  text-align: center;
+}
+
+.lista-direcciones {
+  display: grid;
+  gap: 15px;
+}
+
+.tarjeta-direccion {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-direccion h3 {
+  color: #2563eb;
+  margin-top: 0;
+}
+
+.tarjeta-direccion p {
+  margin: 8px 0;
+  color: #333;
+}
